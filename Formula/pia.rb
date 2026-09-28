@@ -1,26 +1,26 @@
 class Pia < Formula
   desc "Fast, lightweight native terminal coding agent built with Rust"
   homepage "https://github.com/pia-labs/pia"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pia-labs/pia/releases/download/v0.2.1/pia-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "62ee44b147338572d4942ddec0a26cd45f77fff2c4c5e9aab7c117a2b0f1825a"
+      url "https://github.com/pia-labs/pia/releases/download/v0.2.2/pia-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "9dbe325f55cdd1196baa4c54eb3464bebf343948c021124ef18839ae8d18a106"
     else
-      url "https://github.com/pia-labs/pia/releases/download/v0.2.1/pia-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "faae0aed4ffb629f8b1321edcdb68365934c654fd8fed54ef42862d68bcfd4b7"
+      url "https://github.com/pia-labs/pia/releases/download/v0.2.2/pia-v0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "29d7f85a00fdfabfd502f203bb9c7923d786e52130853dbfdc00443a9aa2856c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pia-labs/pia/releases/download/v0.2.1/pia-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d04307d2098f6af5baf35daac9e97f548cd0d6234079ce996f74c39416533f67"
+      url "https://github.com/pia-labs/pia/releases/download/v0.2.2/pia-v0.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a05e90042ab62f47c9bf4137605047b1c2f04286c5dfa2191fb990af3e5f18f2"
     else
-      url "https://github.com/pia-labs/pia/releases/download/v0.2.1/pia-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "afcc1983568eb9677da965a7c8fe04110c268dacf0e9045a597937964bd1df98"
+      url "https://github.com/pia-labs/pia/releases/download/v0.2.2/pia-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "80ec8dcfeb5b5e9f126eb9156266d932abf4ab9e9b07924c1763cdfb3ea1f97e"
     end
   end
 
