@@ -1,6 +1,6 @@
-# Homebrew Tap for PIA
+# Homebrew Tap for Pia
 
-Official Homebrew Tap for [PIA (Programmable Intelligence Agent)](https://github.com/pia-labs/pia) — a fast, lightweight native terminal coding agent built with pure Rust.
+Official Homebrew Tap for [Pia](https://github.com/pia-labs/pia) — a fast, lightweight native terminal coding agent built with pure Rust.
 
 ## Installation
 

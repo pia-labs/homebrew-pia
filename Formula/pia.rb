@@ -1,5 +1,5 @@
 class Pia < Formula
-  desc "PIA (Programmable Intelligence Agent) - Fast, lightweight native terminal coding agent built with Rust"
+  desc "Fast, lightweight native terminal coding agent built with Rust"
   homepage "https://github.com/pia-labs/pia"
   version "0.2.0"
   license "MIT"
