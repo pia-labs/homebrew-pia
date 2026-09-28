@@ -6,13 +6,21 @@ Official Homebrew Tap for [PIA (Programmable Intelligence Agent)](https://github
 
 ```bash
 brew tap pia-labs/pia
-brew install pia
+brew install --formula pia
 ```
 
 Or install directly in a single command:
 
 ```bash
 brew install pia-labs/pia/pia
+```
+
+> **Note:** The `--formula` flag ensures Homebrew installs this terminal agent formula directly.
+
+## Usage
+
+```bash
+pia
 ```
 
 ## Update
